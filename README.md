@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# 3D-RESUME  
+*Transforming Visions into Immersive Realities*  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Built with the tools and technologies:  
+![Vite](https://img.shields.io/badge/Vite-FF4A3D?style=for-the-badge&logo=vite&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Material UI](https://img.shields.io/badge/Material%20UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white) ![React Three Fiber](https://img.shields.io/badge/React--Three--Fiber-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![React Three Drei](https://img.shields.io/badge/React--Three--Drei-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Overview](#overview)
+- [Getting Started](#getting-started)  
+  - [Prerequisites](#prerequisites)  
+  - [Installation](#installation)  
+  - [Usage](#usage)  
+  - [Testing](#testing)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Overview
 
-### `npm test`
+**3D-RESUME** is a React-based, visually rich portfolio and resume application that combines interactive 3D elements with a modern web architecture. Designed for developers seeking a sleek, engaging online presence, it streamlines the process of building and deploying a professional showcase.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Why 3D-RESUME?
 
-### `npm run build`
+- 🔧 **Customizable Components**: Modular React components for sections like Hero, About, Experience, Skills, and Contact—enabling personalized layouts.  
+- 🚄 **Vite Optimization**: Fast development and build times with tailored Vite configuration for efficient bundling.  
+- 🛡️ **TypeScript Architecture**: Strong typing and scalable project structure for maintainability and growth.  
+- 🎨 **Tailwind CSS Styling**: Utility-first styling with Autoprefixer for consistent, responsive design.  
+- 🌐 **React-Three-Fiber**: Floating navigation component for intuitive, smooth scrolling across sections.  
+- 📊 **Performance Monitoring**: Built-in web vitals reporting to ensure optimal user experience.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+This project requires the following dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Programming Language**: TypeScript  
+- **Package Manager**: npm (or yarn)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Clone the repository and install dependencies:
 
-## Learn More
+```
+git clone https://github.com/Rakezt/3d-resume.git
+cd 3d-resume
+npm install
+```
+Usage
+Run the project in development mode:
+```
+npm start
+```
+Build for production:
+```
+npm run build
+```
+Testing
+3D-RESUME uses your chosen test framework to ensure stability. Run the full test suite with:
+```
+npm test
+```
+(c) 2025 Rakesh Singh – Crafted with ❤️
+```
+Simply copy this `README.md` into your repo root—its badges, headings, and spacing match the screenshots exactly. Let me know if you’d like any tweaks!
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
